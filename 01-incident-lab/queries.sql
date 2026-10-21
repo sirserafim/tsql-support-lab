@@ -133,7 +133,7 @@ ORDER BY HourStart;
 
 -- Q10. Minutes to first response for each ticket.
 -- 15 minutes is a simulated training target,
--- not an actual Qualco SLA.
+-- not an actual SLA.
 SELECT
     TicketId,
     Priority,
